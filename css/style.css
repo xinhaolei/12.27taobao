@@ -183,6 +183,37 @@ div.flash .swiper-container img{
     background: #fff;
     color: #333;
 }
+[data-dpr="2"] .main1 .daojishi span{
+    background: #666;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+}
+[data-dpr="2"] .main1 .daojishi .dian{
+    width: 10px;
+    height: 32px;
+    background: #fff;
+    color: #333;
+}
+
+[data-dpr="3"] .main1 .daojishi span{
+    background: #666;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+[data-dpr="3"] .main1 .daojishi .dian{
+    width: 20px;
+    height: 40px;
+    background: #fff;
+    color: #333;
+}
 /*超实惠*/
 .main2{
     width: 10rem;
@@ -824,5 +855,136 @@ div.flash .swiper-container img{
     height: 1rem;
     margin: 0 auto;
     background: #fff;
+}
+.id ul li{
+    width: 2.5rem;
+    height: 0.95rem;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+}
+.id ul li.hong{
+    border-bottom: 2px solid rgb(255,80,0);
+}
+.id ul li.hong a{
+    color: rgb(255,80,0);
+}
+.id ul li a{
+    font-size: 16px;
+    color: #333;
+}
+[data-dpr="2"] .id ul li a{
+    font-size: 26px;
+}
+[data-dpr="3"] .id ul li a{
+    font-size: 39px;
+}
+.zhao{
+    width: 10rem;
+    height: 19.5rem;
+    margin: 0 auto;
+    background: #f8f8f8;
+}
+.zhao1{
+    width: 4.9rem;
+    height: 6.5rem;
+    float: left;
+    background: #fff;
+}
+.zhao1 img{
+    width: 4.9rem;
+    height: 5rem;
+    float: left;
+}
+.zhao1 .zhao2{
+    width: 4.9rem;
+    height:1.5rem ;
+}
+.zhao1 span{
+    float: left;
+    font-size: 15px;
+    color: #333;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
+.zhao1 span:nth-of-type(2){
+    font-size: 14px;
+    color: rgb(255,85,0);
+}
+.zhao1 span:nth-of-type(3){
+    font-size: 12px;
+    color: rgb(153,153,153);
+    padding-left: 0.2rem;
+}
+[data-dpr="2"] .zhao1 span{
+    font-size: 26px;
+}
+[data-dpr="2"] .zhao1 span:nth-of-type(2){
+    font-size: 26px;
+}
+[data-dpr="2"] .zhao1 span:nth-of-type(3){
+    font-size: 26px;
+}
+[data-dpr="3"] .zhao1 span{
+    font-size: 39px;
+}
+[data-dpr="3"] .zhao1 span:nth-of-type(2){
+    font-size: 39px;
+}
+[data-dpr="3"] .zhao1 span:nth-of-type(3){
+    font-size: 39px;
+}
+
+.zhao3{
+    width: 4.9rem;
+    height: 6.5rem;
+    float: left;
+    background: #fff;
+    margin-left: 0.1rem;
+}
+.zhao3 img{
+    width: 4.9rem;
+    height: 5rem;
+    float: left;
+}
+
+.zhao3 .zhao4{
+    width: 4.9rem;
+    height:1.5rem ;
+}
+.zhao3 span{
+    float: left;
+    font-size: 15px;
+    color: #333;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    padding-left: 0.1rem;
+}
+.zhao3 span:nth-of-type(2){
+    font-size: 14px;
+    color: rgb(255,85,0);
+}
+.zhao3 span:nth-of-type(3){
+    font-size: 12px;
+    color: rgb(153,153,153);
+    padding-left: 0.2rem;
+}
+[data-dpr="2"] .zhao3 span{
+    font-size: 26px;
+}
+[data-dpr="2"] .zhao3 span:nth-of-type(2){
+    font-size: 26px;
+}
+[data-dpr="2"] .zhao3 span:nth-of-type(3){
+    font-size: 26px;
+}
+[data-dpr="3"] .zhao3 span{
+    font-size: 39px;
+}
+[data-dpr="3"] .zhao3 span:nth-of-type(2){
+    font-size: 39px;
+}
+[data-dpr="3"] .zhao3 span:nth-of-type(3){
+    font-size: 39px;
 }
 
