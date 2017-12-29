@@ -6,68 +6,183 @@
     <script src="js/flexible.js"></script>
     <script src="js/flexible_css.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="iconfont.css">
+    <link rel="stylesheet" href="iconfonts.css">
+    <style>
+        .obq{
+            width: 10rem;
+            height: 1rem;
+            margin: 0 auto;
+        }
+        .jia{
+            width: 10rem;
+            height: 1rem;
+            position: fixed;
+            z-index: 9;
+            bottom: 0;
+            background: #fff;
+            margin: 0 auto;
+            color: #666;
+        }
+        .jia ul li{
+            float: left;
+            width: 2.75rem;
+            height: 1rem;
+            line-height: 1rem;
+            text-align: center;
+            font-size: 12px;
+        }
+        [data-dpr="2"] .jia ul li{
+            font-size: 24px;
+        }
+        .jia ul li.xiao{
+            width: 1.5rem;
+            height: 1rem;
+        }
+        .jia ul li.yan{
+            font-size: 16px;
+            background:#FF9500;
+            color: #fff;
+        }
+        .jia ul li.yan p{
+            line-height: 0.5rem;
+        }
+        .jia ul li.yse{
+            font-size: 16px;
+           background: #FF0036;
+            color: #fff;
+        }
+        .jia ul li.yse p{
+            line-height: 0.5rem;
+        }
+        [data-dpr="2"] .jia ul li.yan{
+            font-size: 24px;
+        }
+        [data-dpr="2"] .jia ul li.yse{
+            font-size: 24px;
+        }
+        .diao{
+            width: 9.95rem;
+            height:2rem;
+            float: left;
+            margin: 0 auto;
+        }
+        .pang10{
+            width: 10rem;
+            height: 0.3rem;
+            background: #e8e8e8;
+            margin: 0 auto;
+            position: relative;
+            top: 3.3rem;
+        }
+        .jia ul li span{
+            width: 1.5rem;
+            height: 0.3rem;
+            display: block;
+            line-height: 0.8rem;
+            font-size: 18px;
+        }
+        [data-dpr="2"] .jia ul li span{
+            font-size: 26px;
+        }
+    </style>
 </head>
 <body>
 <div class="id">
 <ul>
-    <li class="hong"><a href="">全部</a></li>
-    <li><a href="">品牌</a></li>
-    <li><a href="">材质</a></li>
-    <li><a href="">袖型</a></li>
+    <li class="active"><a href="">基本信息</a></li>
+    <li><a href="">商品详情</a></li>
+    <li><a href="">评价250</a></li>
 </ul>
 </div>
-<div class="zhao">
-    <div class="zhao1">
+<div class="pang">
+    <div class="pang2">
         <img src="images/15.jpg">
-        <div class="zhao2">
-        <span>2017冬季新款女装韩版中长</span>
-        <span>￥288</span>
-        <span>11585人以付款</span>
-    </div></div>
+    </div>
+    <div class="pang3">
+        <div class="pang4">
+            <span>￥324.5</span>
+            <span  style="text-decoration:line-through;">￥649</span>
+            <span>106件已售</span>
+        </div>
+        <div class="pang5">
+            <p>距结束剩余</p>
 
-    <div class="zhao3">
-        <img src="images/16.jpg">
-        <div class="zhao4">
-            <span>2017秋冬季新款韩版女装宽</span>
-            <span>￥198</span>
-            <span>19468人以付款</span>
-        </div></div>
-    <div class="zhao1">
-        <img src="images/17.jpg">
-        <div class="zhao2">
-            <span>2017冬新款韩国中长款韩版</span>
-            <span>￥228</span>
-            <span>10974人以付款</span>
-        </div></div>
+            <div class="daojishi">
+                <span id="t_d"></span>
+                <span class="dian">:</span>
+                <span id="t_h"></span>
+                <span class="dian">:</span>
+                <span id="t_m"></span>
+                <span class="dian">:</span>
+                <span id="t_s"></span>
+            </div>
 
-    <div class="zhao3">
-        <img src="images/18.jpg">
-        <div class="zhao4">
-            <span>2017冬装新款韩版宽松显瘦</span>
-            <span>￥208</span>
-            <span>17103人以付款</span>
-        </div></div>
+            </div>
+    </div>
+    <div class="pang6">
+        <span>【聚满800-80】ONLY2017冬条纹两件套针织背连衣裙女|117446506</span>
+        <span>快递：0.00</span>
+        <span>月销量 1464件</span>
+        <span>天津</span>
+    </div>
 
+    <div class="pang7">
+        <p>聚划算</p>
+        <div class="pang8">
+            <p><img src="images/15.png"><span>好品质</span> </p>
+            <p><a href="">正品保证</a><a href="">极速退款</a><a href="">七天退换</a></p>
+        </div>
 
-    <div class="zhao1">
-        <img src="images/19.jpg">
-        <div class="zhao2">
-            <span>美美的夏夏：浅色气质毛呢大</span>
-            <span>￥422</span>
-            <span>35737人以付款</span>
-        </div></div>
+        <div class="pang9">
+            <span>请选择颜色分类/尺码</span><span class="iconfont icon-gengduo"></span>
+        </div>
+        <div class="pang10">
 
-    <div class="zhao3">
-        <img src="images/20.jpg">
-        <div class="zhao4">
-            <span>2017冬季新款毛呢女套女中</span>
-            <span>￥358</span>
-            <span>11878人以付款</span>
-        </div></div>
+        </div>
+        <div class="pang9">
+            <span>产品系数</span><span class="iconfont icon-gengduo"></span>
+        </div>
+    </div>
 </div>
+<div class="diao">
+
+</div>
+<div class="obq">
+<div class="jia">
+    <ul>
+        <li class="xiao"><span class="iconfont icon-kefu"></span><p>客服</p></li>
+        <li class="xiao"><span class="iconfont icon-jindianguangguang"></span><p>进店</p></li>
+        <li class="xiao"><span class="iconfont icon-shoucang"></span><p>收藏</p></li>
+        <li class="yan"><span></span><p>加入购物车</p></li>
+        <li class="yse"><span></span><p>马上抢</p></li>
+    </ul>
+</div>
+</div>
+<script>
+    //倒计时
+    function GetRTime(){
+        var EndTime= new Date('2018/1/2 12:00:00');
+        var NowTime = new Date();
+        var t =EndTime.getTime() - NowTime.getTime();
+        var d=0;
+        var h=0;
+        var m=0;
+        var s=0;
+        if(t>=0){
+            d=Math.floor(t/1000/60/60/24);
+            h=Math.floor(t/1000/60/60%24);
+            m=Math.floor(t/1000/60%60);
+            s=Math.floor(t/1000%60);
+        }
 
 
-
-
+         document.getElementById("t_d").innerHTML = d;// + "天";
+        document.getElementById("t_h").innerHTML = h;// + "时";
+        document.getElementById("t_m").innerHTML = m; //+ "分";
+        document.getElementById("t_s").innerHTML = s; //+ "秒";
+    }
+    setInterval(GetRTime,0);
+</script>
 </body>
 </html>

@@ -7,23 +7,37 @@
     <script src="js/flexible_css.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-4.7/iconfont.css">
+    <style>
+        #one{
+            width: 10rem;
+            height: 15rem;
+            overflow: hidden;
+        }
+        #tou{
+            width: 10rem;
+            height: 15rem;
+            background: #f4f4f4;
+            margin: 0 auto;
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <header class="header2">
     <ul>
-        <li><a href="" class="tuijian">
+        <li id="show" onclick="font1()"><a href="javascript:;" class="tuijian">
             <span class="iconfont icon-woxihuan"></span>
             <p>为您推荐</p></a></li>
-        <li><a href="">
+        <li id="hide" onclick="pr()"><a href="javascript:;" >
             <span class="iconfont icon-nvzhuang"></span>
             <p>女装</p></a></li>
-        <li><a href="">
+        <li><a href="javascript:;" >
             <span class="iconfont icon-nanzhuang"></span>
             <p>男装</p></a></li>
-        <li><a href="">
+        <li><a href="javascript:;">
             <span class="iconfont icon-xiexue"></span>
             <p>鞋靴</p></a></li>
-        <li><a href="">
+        <li><a href="javascript:;">
             <span class="iconfont icon-xiangbao"></span>
             <p>箱包</p></a></li>
         <li class="ss"><a href=""><img src="images/0.png"> </a></li></ul>
@@ -31,75 +45,159 @@
 <div class="mon">
     <span>—— 为你推荐 ——</span>
 </div>
-<div class="mon2">
-    <ul>
-        <li>  <div class="mon3">
-            <a href="three.html">
-            <img src="images/00.jpg">
-            <span>薄呢外套</span></a>
-        </div>
-            <div class="mon4">
-                <a href="">
-                <img src="images/2.jpg">
-                <span>薄外套</span></a>
+<div class="hai">
+    <div class="mon2" id="one">
+        <ul>
+            <li>  <div class="mon3">
+                <a href="three.html">
+                    <img src="images/00.jpg">
+                    <span>薄呢外套</span></a>
             </div>
-            <div class="mon5">
+                <div class="mon4">
+                    <a href="">
+                        <img src="images/2.jpg">
+                        <span>薄外套</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="images/3.jpg">
+                        <span>马甲</span></a>
+                </div></li>
+            <li> <div class="mon3">
                 <a href="">
-                <img src="images/3.jpg">
-                <span>马甲</span></a>
-            </div></li>
-        <li> <div class="mon3">
-            <a href="">
-            <img src="images/4.jpg">
-            <span>皮衣</span></a>
-        </div>
-            <div class="mon4">
-                <a href="">
-                <img src="images/5.jpg">
-                <span>开衫</span></a>
+                    <img src="images/4.jpg">
+                    <span>皮衣</span></a>
             </div>
-            <div class="mon5">
-                <a href="">
-                <img src="images/6.jpg">
-                <span>套装裙</span></a>
-            </div></li>
-        <li>
-            <div class="mon3">
-                <a href="">
-                <img src="images/7.jpg">
-                <span>中年</span></a>
-            </div>
-            <div class="mon4">
-                <a href="">
-                <img src="images/8.jpg">
-                <span>印花</span></a>
-            </div>
-            <div class="mon5">
-                <a href="">
-                <img src="images/9.jpg">
-                <span>平底鞋</span></a>
-            </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="images/5.jpg">
+                        <span>开衫</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="images/6.jpg">
+                        <span>套装裙</span></a>
+                </div></li>
+            <li>
+                <div class="mon3">
+                    <a href="">
+                        <img src="images/7.jpg">
+                        <span>中年</span></a>
+                </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="images/8.jpg">
+                        <span>印花</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="images/9.jpg">
+                        <span>平底鞋</span></a>
+                </div>
 
-        </li>
-        <li>
-            <div class="mon3">
-                <a href="">
-                <img src="images/10.jpg">
-                <span>棒球服</span></a>
-            </div>
-            <div class="mon4">
-                <a href="">
-                <img src="images/11.jpg">
-                <span>包臀裙</span></a>
-            </div>
-            <div class="mon5">
-                <a href="">
-                <img src="images/12.jpg">
-                <span>阔腿裤</span></a>
-            </div>
-        </li>
-    </ul>
+            </li>
+            <li>
+                <div class="mon3">
+                    <a href="">
+                        <img src="images/10.jpg">
+                        <span>棒球服</span></a>
+                </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="images/11.jpg">
+                        <span>包臀裙</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="images/12.jpg">
+                        <span>阔腿裤</span></a>
+                </div>
+            </li>
+        </ul>
 
+    </div>
+
+    <div class="jun" id="tou">
+        <ul>
+            <li>  <div class="mon3">
+                <a href="three.html">
+                    <img src="img/n1.jpg">
+                    <span>毛衣</span></a>
+            </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="img/n2.jpg">
+                        <span>羽绒服</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="img/n3.jpg">
+                        <span>毛呢外套</span></a>
+                </div></li>
+            <li> <div class="mon3">
+                <a href="">
+                    <img src="img/n4.jpg">
+                    <span>针织衫</span></a>
+            </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="img/n5.jpg">
+                        <span>棉衣</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="img/n6.jpg">
+                        <span>打底裤</span></a>
+                </div></li>
+            <li>
+                <div class="mon3">
+                    <a href="">
+                        <img src="img/n7.jpg">
+                        <span>马甲</span></a>
+                </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="img/n8.jpg">
+                        <span>皮衣</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="img/n9.jpg">
+                        <span>羽绒裤</span></a>
+                </div>
+
+            </li>
+            <li>
+                <div class="mon3">
+                    <a href="">
+                        <img src="img/n10.jpg">
+                        <span>连衣裙</span></a>
+                </div>
+                <div class="mon4">
+                    <a href="">
+                        <img src="img/n11.jpg">
+                        <span>短外套</span></a>
+                </div>
+                <div class="mon5">
+                    <a href="">
+                        <img src="img/n12.jpg">
+                        <span>中老年女装</span></a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
 </div>
+
+<script>
+   function pr(){
+       document.getElementById("tou").style.display="block";
+       document.getElementById("one").style.display="none";
+   }
+function font1(){
+    document.getElementById("one").style.display="block";
+    document.getElementById("tou").style.display="none";
+}
+</script>
 </body>
 </html>
